@@ -31,9 +31,7 @@ body{
         bottom: 10%;
         left: 30%;
     }
-        .megaman img{
-            width: 100%;
-        }
+        .megaman img{ width: 100%; }
     .background .cloud{
         width: 150px;   
         position: absolute;
@@ -41,14 +39,11 @@ body{
         bottom:40%;
         animation: animateCloud 2s ease-in-out infinite;
     }
-        .background .cloud img{
-            width: 100%;
+        .background .cloud img{ width: 100%; }
+    @keyframes animateCloud{
+        0%, 100% {
+            bottom:40%;
+        } 50% {
+            bottom:45%;
         }
-
-@keyframes animateCloud{
-    0%, 100% {
-        bottom:40%;
-    } 50% {
-        bottom:45%;
     }
-}
