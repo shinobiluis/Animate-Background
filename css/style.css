@@ -1,0 +1,54 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    height: 100vh;
+    margin: 0;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    background: url('../image/background.png');
+    background-size: auto 100%;
+    background-position: 0 0;
+    animation: animateBackground 100s linear infinite; 
+}
+    .background .title{
+        text-align: center;
+        margin: 0;
+        padding-top: 10%;
+    }
+    @keyframes animateBackground{
+        form{
+            background-position: 0 0;
+        }
+        to{
+            background-position: -13000px 0;
+        }
+    }
+
+    .megaman{
+        width: 80px;
+        position: absolute;
+        bottom: 10%;
+        left: 30%;
+    }
+        .megaman img{
+            width: 100%;
+        }
+    .background .cloud{
+        width: 150px;   
+        position: absolute;
+        left: 40%;
+        bottom:40%;
+        animation: animateCloud 2s ease-in-out infinite;
+    }
+        .background .cloud img{
+            width: 100%;
+        }
+
+@keyframes animateCloud{
+    0%, 100% {
+        bottom:40%;
+    } 50% {
+        bottom:45%;
+    }
+}
