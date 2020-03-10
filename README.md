@@ -1,6 +1,6 @@
-#Animación con CSS3
+# Animación con CSS3
 
-***Link demo [Demo](https://shinobiluis.github.io/Animate-Background/)***
+***Link demo [Demo](https://shinobiluis.github.io/Animate-Background/)***  🔥
 
 Este proyecto solo es una muestra de las animaciones que se pueden realizar con el uso de css.
 
@@ -9,9 +9,7 @@ El proyecto solo resquiere del uso de:
 - CSS3
 - Imagenes
 
-La vista final del proyecto es identica a esta imagen:
-
-![alt text](./readme/screen.png "Vista del proyecto")
+La vista final del proyecto es idéntica a esta imagen:
 
 <p align="center"><img src="./readme/screen.png" width="800"></p>
 
